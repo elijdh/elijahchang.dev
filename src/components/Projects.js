@@ -250,7 +250,9 @@ function ProjectModal({ index, setIndex, projects }) {
             <h3 className="text-2xl font-semibold">{project.title}</h3>
 
             <p className="text-sm italic text-muted dark:text-muted-dark">
-              {project.position} · {project.purpose} · {project.period}
+              {[project.position, project.purpose, project.period]
+                .filter(Boolean)
+                .join(" · ")}
             </p>
           </div>
 

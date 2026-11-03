@@ -1,4 +1,51 @@
 const projects = [
+  /* PERSONAL PROJECT */
+  {
+    id: 5,
+    title: "Fe2",
+    context: "Personal Project",
+    purpose:
+      "Fitness and nutrition tracking app with social accountability, live on the App Store",
+    tags: ["Mobile", "Product Development", "Full Stack"],
+    startDate: "2026-03-16",
+    endDate: "Present",
+    period: "Mar 2026 – Present",
+    position: "Founder & Developer",
+    highlights: [
+      "Built and shipped Fe2, a fitness and nutrition tracking app, to the iOS App Store as a solo developer.",
+      "Implemented strength training logging (routines, programs, sets/reps/weight), nutrition tracking (food search, barcode scanning, recipes), and body-composition check-ins with progress photos, optionally synced with Apple Health.",
+      "Built a social layer with following, a live feed, comments, and direct messaging.",
+      "Developed an AI Coach subscription generating personalized weekly digests and training programs from users' own logged data, with in-app purchases via RevenueCat.",
+      "Architected the backend on Supabase (Postgres, Auth, row-level security) and instrumented the app with Sentry for crash and performance monitoring.",
+      "Implemented Sign in with Apple, secure contact-based friend discovery, and content moderation tooling (report/block).",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "RevenueCat",
+      "Sentry",
+    ],
+    website: "https://fe2.nivis.ca",
+    additionalLinks: [
+      {
+        label: "App Store",
+        url: "https://apps.apple.com/app/fe2/id6800589530",
+      },
+    ],
+    images: [
+      "projects/fe2app1.png",
+      "projects/fe2app2.png",
+      "projects/fe2app3.png",
+      "projects/fe2app4.png",
+      "projects/fe2app5.png",
+      "projects/fe2app6.png",
+      "projects/fe2app7.png",
+    ],
+  },
+
   /* INDUSTRY */
   {
     id: 0,
@@ -113,7 +160,6 @@ const projects = [
       "Firebase Storage",
       "Vercel",
     ],
-    website: "https://thundermatch.vercel.app",
     images: [
       "projects/thundermatch1.png",
       "projects/thundermatch2.png",
@@ -234,55 +280,7 @@ const projects = [
       "Integrated REST APIs for inventory management and dynamic product updates.",
     ],
     technologies: ["Next.js", "React", "MySQL", "Tailwind CSS"],
-    website: "https://hackerspace.ubcoieee.org/",
     github: ["https://github.com/UBCOIEEE/AdminPage"],
-  },
-
-  /* PERSONAL PROJECT */
-  {
-    id: 5,
-    title: "Fe2",
-    context: "Personal Project",
-    purpose:
-      "Fitness and nutrition tracking app with social accountability, live on the App Store",
-    tags: ["Mobile", "Product Development", "Full Stack"],
-    startDate: "2026-03-16",
-    endDate: "Present",
-    period: "Mar 2026 – Present",
-    position: "Founder & Developer",
-    highlights: [
-      "Built and shipped Fe2, a fitness and nutrition tracking app, to the iOS App Store as a solo developer.",
-      "Implemented strength training logging (routines, programs, sets/reps/weight), nutrition tracking (food search, barcode scanning, recipes), and body-composition check-ins with progress photos, optionally synced with Apple Health.",
-      "Built a social layer with following, a live feed, comments, and direct messaging.",
-      "Developed an AI Coach subscription generating personalized weekly digests and training programs from users' own logged data, with in-app purchases via RevenueCat.",
-      "Architected the backend on Supabase (Postgres, Auth, row-level security) and instrumented the app with Sentry for crash and performance monitoring.",
-      "Implemented Sign in with Apple, secure contact-based friend discovery, and content moderation tooling (report/block).",
-    ],
-    technologies: [
-      "React Native",
-      "Expo",
-      "TypeScript",
-      "Supabase",
-      "PostgreSQL",
-      "RevenueCat",
-      "Sentry",
-    ],
-    website: "https://fe2.nivis.ca",
-    additionalLinks: [
-      {
-        label: "App Store",
-        url: "https://apps.apple.com/app/fe2/id6800589530",
-      },
-    ],
-    images: [
-      "projects/fe2app1.png",
-      "projects/fe2app2.png",
-      "projects/fe2app3.png",
-      "projects/fe2app4.png",
-      "projects/fe2app5.png",
-      "projects/fe2app6.png",
-      "projects/fe2app7.png",
-    ],
   },
 
   /* FREELANCE */

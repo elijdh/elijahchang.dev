@@ -30,14 +30,18 @@ const systemsLanguages = [
 const frameworks = [
   "React",
   "Next.js",
+  "React Native",
+  "Expo",
+  "Gatsby",
   "Angular",
   "ASP.NET",
   "Firebase",
+  "Supabase",
   "Flutter",
   "Dart",
 ]
 
-const tools = ["Teradata", "Oracle", "SAS", "Alteryx", "Power BI"]
+const tools = ["Teradata", "Oracle", "PostgreSQL", "SAS", "Alteryx", "Power BI"]
 
 export default function TechnicalSkills() {
   return (

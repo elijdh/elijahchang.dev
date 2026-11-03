@@ -3,7 +3,7 @@ const experience = [
     company: "Bell Canada",
     location: "Toronto, ON",
     role: "Data Engineering Intern",
-    period: "May 2025 – Present",
+    period: "May 2025 – Aug 2026",
     bullets: [
       "Designed, built, and operated daily and weekly data pipelines using SAS and Teradata SQL to ingest data from Oracle and SAP into the enterprise data warehouse.",
       "Developed finance reporting tables for revenue, operating expenses, and budget-vs-actuals; optimized queries and refresh jobs to reduce runtimes and improve data availability.",
